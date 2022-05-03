@@ -1,0 +1,67 @@
+import React,{useState} from 'react';
+import {StyleSheet,View,Text,TextInput} from 'react-native';
+import { backgroundColor, borderLeftColor } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
+const App=()=>{
+const[fullname,setFullname]=useState();
+const[age,setAge]=useState();
+return(
+<View style={styles.container}>
+<View style={{
+  marginBottom:30,
+  backgroundColor:"orange",
+  padding:10,
+  width:300,
+  borderRadius:5,
+}}
+>
+<Text style={styles.label}>FULL FAMILY NAME:{fullname}</Text>
+<Text style={styles.label}>age:{age}</Text>
+</View>
+<Text style={styles.label}>family name:</Text>
+<TextInput style={styles.textInput}
+placeholder="salma"
+placeholderTextColor="teal"
+multiline
+onChangeText={(val)=>
+  setFullname(val)
+}
+/>
+<Text style={styles.label}>age:</Text>
+<TextInput 
+style={[styles.textInput,{width:50}]}
+KeyboardType="numeric"
+placeholder="30"
+placeholderTextColor="teal"
+onChangeText={(value)=>
+  setAge(value)
+}
+
+/>
+</View>
+
+);
+};
+
+const styles=StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:"#fff",
+    alignItems:"center",
+    justifyContent:"center",
+
+  },
+  label:{
+    fontSize:20,
+    fontWeight:"bold",
+  },
+  textInput:{
+    borderWidth:1,
+    borderColor:"lightgray",
+    borderRadius:10,
+    padding:5,
+    width:180,
+    margin:10,textAlign:"center",
+    fontSize:18,
+  }
+});
+ export default App;
