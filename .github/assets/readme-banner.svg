@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">DigitalMap</title>
+  <desc id="desc">A modern mapping banner with a route, map pin, and cross-platform interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062A35"/><stop offset=".55" stop-color="#0F4C5C"/><stop offset="1" stop-color="#3A254D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2DD4BF"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
+    <pattern id="map" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M0 18L25 0L70 30M0 58L35 25L70 58" fill="none" stroke="#CCFBF1" stroke-opacity=".055" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/><rect width="1200" height="320" rx="28" fill="url(#map)"/>
+  <g transform="translate(70 34)">
+    <rect x="0" y="18" width="230" height="210" rx="26" fill="#ECFEFF" opacity=".11" stroke="#5EEAD4" stroke-width="3"/>
+    <path d="M20 184C55 130 70 168 105 112S166 132 205 62" fill="none" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 10"/>
+    <circle cx="22" cy="184" r="8" fill="#2DD4BF"/><circle cx="205" cy="62" r="8" fill="#FB7185"/>
+    <path d="M116 30C78 30 57 59 57 91C57 133 116 189 116 189S175 133 175 91C175 59 154 30 116 30Z" fill="url(#accent)" stroke="#F0FDFA" stroke-width="4"/>
+    <circle cx="116" cy="89" r="23" fill="#083344" stroke="#FFFFFF" stroke-width="4"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="350" y="107" fill="#5EEAD4" font-size="18" font-weight="700" letter-spacing="4">REACT • EXPO • CROSS-PLATFORM MAPS</text>
+    <text x="346" y="180" fill="#FFFFFF" font-size="64" font-weight="800">DIGITALMAP</text>
+    <rect x="350" y="202" width="150" height="4" rx="2" fill="url(#accent)"/>
+    <text x="350" y="250" fill="#D5E7EA" font-size="23">An experimental foundation for mobile and web mapping</text>
+  </g>
+  <g fill="none" stroke="#FB7185" stroke-width="2" opacity=".4"><path d="M1200 70H1080L1040 110H965M1200 258H1090L1050 218H985"/></g>
+  <g fill="#2DD4BF"><circle cx="1080" cy="70" r="5"/><circle cx="1090" cy="258" r="5"/></g>
+  <rect x="2" y="2" width="1196" height="316" rx="26" fill="none" stroke="#5EEAD4" stroke-opacity=".2" stroke-width="2"/>
+</svg>
