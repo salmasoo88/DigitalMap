@@ -95,6 +95,17 @@ Before running the project, the implementation should be aligned around either:
 - [ ] Add screenshots and platform-specific test notes
 - [ ] Introduce linting and component tests
 
+## Contribution Guide
+
+Contributions should help move the repository toward one clearly defined runtime. A focused contribution can:
+
+- implement the missing map component for the chosen platform;
+- align the application entry point with Expo or React web;
+- update dependencies in a controlled, documented step; or
+- add a minimal location dataset with tested marker interactions.
+
+When proposing a change, state the target platform and include the exact command used to verify it.
+
 ## Maintainer
 
 **Salma Soofiyan** — Cybersecurity, AI & Machine Learning Researcher  
