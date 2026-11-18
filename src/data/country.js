@@ -1,11 +1,4 @@
 import { projectVideo } from "data/projectVideos";
-const video = projectVideo("explore.mp4");
-const Ire_video = projectVideo("Eva Lloyd intro REF 21 FINAL (Captioned by Zubtitle).mp4");
-const julie_video = projectVideo("JULIA DAVIDSON - REF - intro - final (Captioned by Zubtitle).mp4");
-const Richard_video = projectVideo("Richard Lindsay intro REF 21 FINAL (Captioned by Zubtitle) (1).mp4");
-const Ravi_video = projectVideo("Ravi intro REF 2021 FINAL (Captioned by Zubtitle) (1).mp4");
-const Sam_video = projectVideo("Sam Wass intro FINAL (Captioned by Zubtitle).mp4");
-const Siraj = projectVideo("GCRF capacity development on womens land rights_Siraj Sait.mp4");
 import image from "assets/images/Pollution.jpeg";
 import image1 from "assets/images/ACE A Conversational AI Approach to Detecting Deception and Tackling Insurance Fraud Julie Wall 4.jpg";
 import {
@@ -62,6 +55,14 @@ import {
   Siraj_p15,
   Siraj_p16,
 } from "./image_videosExport.js";
+
+const video = projectVideo("explore.mp4");
+const Ire_video = projectVideo("Eva Lloyd intro REF 21 FINAL (Captioned by Zubtitle).mp4");
+const julie_video = projectVideo("JULIA DAVIDSON - REF - intro - final (Captioned by Zubtitle).mp4");
+const Richard_video = projectVideo("Richard Lindsay intro REF 21 FINAL (Captioned by Zubtitle) (1).mp4");
+const Ravi_video = projectVideo("Ravi intro REF 2021 FINAL (Captioned by Zubtitle) (1).mp4");
+const Sam_video = projectVideo("Sam Wass intro FINAL (Captioned by Zubtitle).mp4");
+const Siraj = projectVideo("GCRF capacity development on womens land rights_Siraj Sait.mp4");
 
 const country = {
   Finland: [
