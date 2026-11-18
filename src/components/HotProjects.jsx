@@ -2,13 +2,14 @@ import { projectVideo } from "data/projectVideos";
 import { Box } from "@chakra-ui/react";
 import React, { useState } from "react";
 import ModalShowProject from "./ModalSho";
-const Ravi_video = projectVideo("Ravi intro REF 2021 FINAL (Captioned by Zubtitle) (1).mp4");
-const Sam_video = projectVideo("Sam Wass intro FINAL (Captioned by Zubtitle).mp4");
-const julie_video = projectVideo("JULIA DAVIDSON - REF - intro - final (Captioned by Zubtitle).mp4");
 import image from "assets/images/Pollution.jpeg";
 import image1 from "assets/images/ACE A Conversational AI Approach to Detecting Deception and Tackling Insurance Fraud Julie Wall 4.jpg";
 import * as am5 from "@amcharts/amcharts5";
 import { connectingNature } from "data/image_videosExport";
+
+const Ravi_video = projectVideo("Ravi intro REF 2021 FINAL (Captioned by Zubtitle) (1).mp4");
+const Sam_video = projectVideo("Sam Wass intro FINAL (Captioned by Zubtitle).mp4");
+const julie_video = projectVideo("JULIA DAVIDSON - REF - intro - final (Captioned by Zubtitle).mp4");
 //
 const hotProject = [
   {
